@@ -1,6 +1,5 @@
 AUTHOR = 'Sitala'
 SITENAME = 'CV'
-SITEURL = ''
 
 PATH = 'content'
 
