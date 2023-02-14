@@ -27,15 +27,13 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = False
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
 
 THEME = "resume"
 CSS_FILE = 'main-3.css'
 
 #Profile information
 NAME = 'Ситала Николай'
-TAGLINE = 'Full Stack Developer'
+TAGLINE = 'Заместитель директора'
 PIC = 'profile.png'
 
 #sidebar links
