@@ -1,6 +1,6 @@
 {% if EDUCATIONS %}
 <div class="education-container container-block">
-<h2 class="container-block-title">Education</h2>
+<h2 class="container-block-title">{{ EDUCATIONS_HEAD }}</h2>
 {% for education in EDUCATIONS %}
     <div class="item">
 	    <h4 class="degree">{{ education['degree'] }}</h4>

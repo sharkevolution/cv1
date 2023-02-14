@@ -38,13 +38,18 @@ PIC = 'profile.png'
 
 #sidebar links
 EMAIL = 'nsitala@ukr.net'
-PHONE = '(+38) 0675691455'
+PHONE = '(+38) 067-569-14-55'
 WEBSITE = 'sitala.netlify.app'
-LINKEDIN = 'suhebk'
-GITHUB = 'suheb'
-TWITTER = '@iamsuheb'
+LINKEDIN = 'nsitala'
+GITHUB = 'sharkevolution'
+TWITTER = 'nsitala'
 
+
+CAREER_SUMMARY_HEAD = 'Профиль'
 CAREER_SUMMARY = 'I am a full-stack developer currently working as a software developer at Zomato. I am a Google Summer of Code mentor for CLTK. I also participated in GSoC last year as a student. I have also worked at Aspiring Minds and various other startups mainly working on Web and Android.'
+
+
+SKILLS_HEAD = 'Навыки'
 
 SKILLS = [
 	{
@@ -71,6 +76,7 @@ SKILLS = [
 
 PROJECT_INTRO = 'You can list your side projects or open source libraries in this section. '
 
+PROJECTS_HEAD = 'Проекты'
 PROJECTS = [
 	{
 		'title': 'Open Source Contributions',
@@ -86,6 +92,8 @@ PROJECTS = [
 	}
 ]
 
+
+LANGUAGES_HEAD = 'Языки'
 LANGUAGES = [
 	{
 		'name': 'Украинский',
@@ -101,11 +109,14 @@ LANGUAGES = [
 	}
 ]
 
+INTERESTS_HEAD = 'Интересы'
 INTERESTS = [
 	'Gaming',
 	'Cricket'
 ]
 
+
+EXPERIENCES_HEAD = 'Опыт работы'
 EXPERIENCES = [
 	{
 		'job_title': 'Software Development Engineer',
@@ -133,6 +144,7 @@ EXPERIENCES = [
 	}
 ]
 
+EDUCATIONS_HEAD = 'Образование'
 EDUCATIONS = [
 	{
 		'degree': 'B.E in Information Technology',
@@ -145,3 +157,5 @@ EDUCATIONS = [
 		'time': '2012'
 	}
 ]
+
+EXTRA_HEAD = 'Дополнительно'
