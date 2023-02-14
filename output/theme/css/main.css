@@ -304,7 +304,7 @@ p {
 used for profile image
 */
 .profile-img {
-  max-width: 100px;
+  max-width: 150px;
   margin-bottom: 15px;
   border: 0px solid #fff;
   border-radius: 100%;
