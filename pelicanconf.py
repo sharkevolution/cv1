@@ -158,3 +158,8 @@ EDUCATIONS = [
 ]
 
 EXTRA_HEAD = 'Дополнительно'
+
+
+SITEMAP = {
+    "format": "xml"
+}
