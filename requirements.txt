@@ -1,7 +1,8 @@
-ghp-import
+pelican
 pelican[Markdown]
+pelican-render-math
+pelican-sitemap
 disqus-python
 beautifulsoup4
-pelican-render-math
 Markdown
-pelican-sitemap
+ghp-import
