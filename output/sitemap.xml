@@ -5,7 +5,11 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
+<<<<<<< HEAD
 <lastmod>2023-02-14T22:25:11-00:00</lastmod>
+=======
+<lastmod>2023-02-14T22:23:24-00:00</lastmod>
+>>>>>>> 6f6bf0037c0aa2593a3279511d98d657e21d3040
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
