@@ -122,30 +122,35 @@ INTERESTS = [
 
 
 EXPERIENCES_HEAD = 'Опыт работы'
+ACHIEVMENTS_HEAD = 'Достижения'
 EXPERIENCES = [
     {
         'job_title': 'Software Development Engineer',
         'time': 'Oct 2016 - Present',
         'company': 'Zomato, Gurgaon IN',
-        'details': 'Part of the web team working on developing a smart POS system for restaurants.'
+        'details': 'Part of the web team working on developing a smart POS system for restaurants.',
+        'achievments': 'ok'
     },
     {
         'job_title': 'Web developer',
         'time': 'Aug 2016 - Dec 2016',
         'company': 'Archimedes Digital, WFH',
-        'details': 'Worked on developing an online catalog for museums using scans of various objects (artifacts, books etc). Developed a highly zoomable image viewer and integrated linting and test suites to be used across projects.'
+        'details': 'Worked on developing an online catalog for museums using scans of various objects (artifacts, books etc). Developed a highly zoomable image viewer and integrated linting and test suites to be used across projects.',
+        'achievments': 'ok'
     },
     {
         'job_title': 'Google Summer of Code Student',
         'time': 'May 2016 - Aug 2016',
         'company': 'Classical Language Toolkit (CLTK), WFH',
-        'details': 'Worked on the CLTK webapp - a modern reading environment to study classical languages. Updated the webapp to provide definitions, translations and commentary along with the text. Added functionality to add annotations and bookmarks to enhance the reading experience for user. Working on extending user profile to include annotations, bookmarks and other social networks.'
+        'details': 'Worked on the CLTK webapp - a modern reading environment to study classical languages. Updated the webapp to provide definitions, translations and commentary along with the text. Added functionality to add annotations and bookmarks to enhance the reading experience for user. Working on extending user profile to include annotations, bookmarks and other social networks.',
+        'achievments': 'ok'
     },
     {
         'job_title': 'Research and Development Intern',
         'time': 'May 2015 - June 2015',
         'company': 'Aspiring Minds, Gurgaon IN',
-        'details': 'Developed a CRM-simulation module integrated into the employability assessment platform AMCAT. Created the frontend for the module and wrote backend code for question delivery and scoring. Designed the database schemas for the module compatible with the current platform’s database.'
+        'details': 'Developed a CRM-simulation module integrated into the employability assessment platform AMCAT. Created the frontend for the module and wrote backend code for question delivery and scoring. Designed the database schemas for the module compatible with the current platform’s database.',
+        'achievments': 'ok'
     }
 ]
 

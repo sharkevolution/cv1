@@ -220,6 +220,12 @@ p {
   margin-bottom: 10px;
   color: #97AAC3;
 }
+
+.main-wrapper .achievments {
+  margin-bottom: 10px;
+  color: #3F4650;
+}
+
 .main-wrapper .project-title {
   font-size: 16px;
   font-weight: 400;
@@ -324,5 +330,10 @@ used for profile image
   border: 0px solid #fff;
   border-radius: 100%;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+.achievments-details {
+	font-style: oblique;
 }
 
