@@ -3,12 +3,11 @@
 <head>
     <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" type="text/css" href="./theme/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="./theme/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="./theme/css/main-3.css" />
+    <link rel="stylesheet" type="text/css" href="/theme/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/theme/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/theme/css/main-3.css" />
 
 
-    <link href="https://sharkevolution.github.io/cv1/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CV Atom">
 
 
 
@@ -32,7 +31,7 @@
  
 <div class="sidebar-wrapper">
     <div class="profile-container">
-        <img class="profile-img" src="./theme/images/profile.png" alt="profile picture" />
+        <img class="profile-img" src="/theme/images/profile.png" alt="profile picture" />
         <h1 class="name">Ситала Николай</h1>
         <h3 class="tagline">Заместитель директора</h3>
     </div><!--//profile-container-->
@@ -78,17 +77,20 @@
 <div class="interests-container container-block">
 	<h2 class="container-block-title">Интересы</h2>
 	<ul class="list-unstyled interests-list">
-		   <li>Gaming</li>
-		   <li>Cricket</li>
+		   <li>Метаэвристика</li>
+		   <li>Теория графов</li>
+		   <li>Задача коммивояжера</li>
+		   <li>GIS</li>
+		   <li>BigData</li>
+		   <li>Data Mining</li>
 	</ul>
 </div><!--//interests-->
 <div class="remove-container container-block">
-    <h2 class="container-block-title">Дополнительно</h2>
-    <ul class="list-unstyled interests-list">
-    <a target="_blank" href="https://www.youtube.com/watch?v=Jnmj1dXDbNk"><li>How to use?</li></a>
-    </ul>
-</div><!--//About-->
-    
+<h2 class="container-block-title">About Theme</h2>
+<ul class="list-unstyled interests-list">
+<a target="_blank" href="https://www.youtube.com/watch?v=Jnmj1dXDbNk"><li>How to use?</li></a>
+</ul>
+</div><!--//About-->    
 </div><!--//sidebar-wrapper-->    <div class="main-wrapper">
        
 <section class="section summary-section">
@@ -170,41 +172,51 @@
     <h2 class="section-title"><i class="fa fa-rocket"></i>Навыки</h2>
     <div class="skillset">        
             <div class="item">
-                <h3 class="level-title">Python</h3>
+                <h3 class="level-title">Управление</h3>
                 <div class="level-bar">
                     <div class="level-bar-inner" data-level="90%">
-                    </div>                                      
-                </div><!--//level-bar-->                                 
+                    </div>
+                </div><!--//level-bar-->		
             </div><!--//item-->
             <div class="item">
-                <h3 class="level-title">Javascript &amp; jQuery</h3>
+                <h3 class="level-title">Работа в команде</h3>
                 <div class="level-bar">
-                    <div class="level-bar-inner" data-level="95%">
-                    </div>                                      
-                </div><!--//level-bar-->                                 
+                    <div class="level-bar-inner" data-level="100%">
+                    </div>
+                </div><!--//level-bar-->		
             </div><!--//item-->
             <div class="item">
-                <h3 class="level-title">HTML5 &amp; CSS</h3>
+                <h3 class="level-title">Креативность</h3>
                 <div class="level-bar">
-                    <div class="level-bar-inner" data-level="95%">
-                    </div>                                      
-                </div><!--//level-bar-->                                 
+                    <div class="level-bar-inner" data-level="80%">
+                    </div>
+                </div><!--//level-bar-->		
             </div><!--//item-->
             <div class="item">
-                <h3 class="level-title">React</h3>
+                <h3 class="level-title">Анализ</h3>
                 <div class="level-bar">
-                    <div class="level-bar-inner" data-level="90%">
-                    </div>                                      
-                </div><!--//level-bar-->                                 
+                    <div class="level-bar-inner" data-level="100%">
+                    </div>
+                </div><!--//level-bar-->		
             </div><!--//item-->
-            <div class="item">
-                <h3 class="level-title">PHP</h3>
-                <div class="level-bar">
-                    <div class="level-bar-inner" data-level="85%">
-                    </div>                                      
-                </div><!--//level-bar-->                                 
-            </div><!--//item-->
-    </div>  
+    </div>
+</section><!--//skills-section-->
+
+<section class="skills-section section">
+	<h2 class="section-title"><i class="fa fa-rocket"></i>Технические навыки</h2>
+	<div class="skillsPieChart" 
+		data-values='{"Python": 4.0, "Jupyter": 4.0, "Sqlite": 3.0, "Excel": 5.0, "VBA": 4.0, "BPMN": 4.0}'
+		data-width="250" 
+		data-height="250" 
+		data-red="0" 
+		data-green="128" 
+		data-blue="255" 
+		style="margin-top:0px;">
+		
+		<div style="text-align: center;">
+			<div class="chartCanvasWrap"></div>
+		</div>	
+	</div>
 </section><!--//skills-section-->
         
     </div><!--//main-body-->
@@ -217,8 +229,11 @@
             <small class="copyright">Ported to Pelican with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Suhaib Khan</a></small>
         </div><!--//container-->
     </footer><!--//footer-->
-    <script type="text/javascript" src="./theme/js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="./theme/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="./theme/js/main.js"></script>
+    <script type="text/javascript" src="/theme/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/theme/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/theme/js/main.js"></script>
+
+	<script type="text/javascript" src="/theme/js/radar/js/jquery-radar-plus.js"></script>
+	<script type="text/javascript" src="/theme/js/radar/js/main.js"></script>
 </body>
 </html>
