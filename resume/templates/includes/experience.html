@@ -13,10 +13,12 @@
             <div class="details">
                 <p>{{ experience['details'] }}</p>
             </div><!--//details-->
+            {% if ACHIEVMENTS_HEAD %}
 			<div class="achievments">{{ ACHIEVMENTS_HEAD }}</div><!--//achievments-->
 			<div class="achievments-details">
                 <p>{{ experience['achievments'] }}</p>
-            </div><!--//details-->
+            </div><!--//achievments-details-->
+            {% endif %}
         </div><!--//item-->
     {% endfor %}
 </section><!--//section-->

@@ -6,3 +6,4 @@ disqus-python
 beautifulsoup4
 Markdown
 ghp-import
+pelican-pdf

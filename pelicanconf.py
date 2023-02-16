@@ -33,7 +33,7 @@ CSS_FILE = 'main-3.css'
 
 # Profile information
 NAME = 'Ситала Николай'
-TAGLINE = 'Заместитель директора'
+TAGLINE = 'junior Python developer'
 PIC = 'profile.png'
 
 # sidebar links
@@ -45,15 +45,16 @@ GITHUB = 'sharkevolution'
 TWITTER = 'nsitala'
 
 CAREER_SUMMARY_HEAD = 'Профиль'
-CAREER_SUMMARY = 'I am a full-stack developer currently working as a software developer at Zomato. I am a Google Summer of Code mentor for CLTK. I also participated in GSoC last year as a student. I have also worked at Aspiring Minds and various other startups mainly working on Web and Android.'
+CAREER_SUMMARY = 'Имею опыт некоммерческой разработки на Python. Использую Jupyter, Heroiku, QGIS, telegram api. ' \
+                 'Имею хорошие аналитические способности, написание БТ и ТЗ, создание транспортных учетных систем. ' \
+                 'Быстро обучаюсь, стремлюсь стать частью профессиональной команды, ' \
+                 'в которой я мог бы развивать свои навыки для достижения командных результатов. ' \
+                 'Полученный опыт привел к желанию сменить сферу деятельности.'
 
-SOFT_SKILLS_HEAD = 'Навыки'
+
+SOFT_SKILLS_HEAD = 'Ключевые навыки'
 
 SOFT_SKILLS = [
-    {
-        'title': 'Управление',
-        'level': '90'
-    },
     {
         'title': 'Работа в команде',
         'level': '100'
@@ -63,36 +64,46 @@ SOFT_SKILLS = [
         'level': '80'
     },
     {
-        'title': 'Анализ',
+        'title': 'Анализ данных',
         'level': '100'
+    },
+    {
+        'title': 'Управление персоналом',
+        'level': '90'
     },
 ]
 
 HARD_SKILLS_HEAD = 'Технические навыки'
 HARD_SKILLS = json.dumps({"Python": 4.0,
                           "Jupyter": 4.0,
-                          "Sqlite": 3.0,
-                          "Excel": 5.0,
-                          "VBA": 4.0,
-                          "BPMN": 4.0
+                          "Sql": 3.0,
+                          "Lua": 3.0,
+                          "HTML": 3.0,
+                          "CSS": 2.0,
+                          "BPMN": 4.0,
+                          "linux": 3.0
                           })
 
-PROJECT_INTRO = 'You can list your side projects or open source libraries in this section. '
+PROJECT_INTRO = 'Частичный список реализованных проектов'
 
 PROJECTS_HEAD = 'Проекты'
 PROJECTS = [
     {
-        'title': 'Open Source Contributions',
-        'tagline': 'Active contributor in FOSSASIA, worked on the Open Event project (both server and android app).Active contributor in CLTK, worked on the CLTK Web app and API.Made valuable contributions in phpBB, implemented a live search feature.Also made a few contributions to Processing.org and phpMyAdmin.'
+        'title': 'Telegram Bot',
+        'tagline': 'Разработал бот для фиксации времени прибытия товара в точки выдачи, с возможностью выбора перевозчика, города, времени'
     },
     {
-        'title': 'Music Hub',
-        'tagline': 'Android app that connects multiple devices via wifi and plays music in all connected devices simultaneously to create a loud stereo-like sound effect.'
+        'title': 'Система оптимального раскроя материала',
+        'tagline': 'Разработал оптимальный алгоритм раскроя штрипса и добавил возможность изменения настроек на сайт'
     },
     {
-        'title': 'Music Timer',
-        'tagline': 'Android app that monitors phone’s movement to detect whether the user’s asleep and pause music playback accordingly.'
-    }
+        'title': 'Инструменты для работы с геоданными',
+        'tagline': 'Создал с использованием Jupyter инструменты для работы с геоданными'
+    },
+    {
+        'title': 'Система учета и планирования транспорта',
+        'tagline': 'Участвовал в создании, написании, разработке системы учета и планирования на предприятии с нуля'
+    },
 ]
 
 LANGUAGES_HEAD = 'Языки'
@@ -103,68 +114,82 @@ LANGUAGES = [
     },
     {
         'name': 'English',
-        'description': 'Professional'
+        'description': 'Intermediate'
     },
     {
         'name': 'Русский',
-        'description': 'Amateur'
+        'description': 'Native'
     }
 ]
 
 INTERESTS_HEAD = 'Интересы'
 INTERESTS = [
+    'Алгоритмы',
     'Метаэвристика',
     'Теория графов',
     'Задача коммивояжера',
     'GIS',
     'BigData',
-    'Data Mining']
+    'Data Mining',
+    'Love2D framework']
 
 
 EXPERIENCES_HEAD = 'Опыт работы'
-ACHIEVMENTS_HEAD = 'Достижения'
+ACHIEVMENTS_HEAD = None  # 'Достижения'
 EXPERIENCES = [
     {
-        'job_title': 'Software Development Engineer',
-        'time': 'Oct 2016 - Present',
-        'company': 'Zomato, Gurgaon IN',
-        'details': 'Part of the web team working on developing a smart POS system for restaurants.',
+        'job_title': 'Заместитель директора по логистике',
+        'time': '2019 - 2022',
+        'company': 'Розетка',
+        'details': 'Организация и управление магистральными перевозками; <br>'
+                   'Планирование потребности в транспорте; <br>'
+                   'Оценка и расчет стоимости владения транспортром 2т, 5т, 20т; <br>'
+                   'Расчет рентабельности доставки в регионах (last mile); <br>'
+                   'Расчет стоимости подъемов на этаж B2C; <br>'
+                   'Формирование бизнес требований, технических заданий.',
         'achievments': 'ok'
     },
     {
-        'job_title': 'Web developer',
-        'time': 'Aug 2016 - Dec 2016',
-        'company': 'Archimedes Digital, WFH',
-        'details': 'Worked on developing an online catalog for museums using scans of various objects (artifacts, books etc). Developed a highly zoomable image viewer and integrated linting and test suites to be used across projects.',
+        'job_title': 'Начальник отдела',
+        'time': '2009 - 2019',
+        'company': 'ООО БаДМ',
+        'details': 'Организация работы отдела 7чел; <br>'
+                   'Оптимизация и учет транспортных затрат, KPI; <br>'
+                   'Сокращены затраты на 5% за счет создания и внедрения системы учета и планирования транспорта, GPS; <br>'
+                   'Формирование бизнес требований, технических заданий; <br>'
+                   'Анализ, понимание, разработка систем планирования с нуля.',
         'achievments': 'ok'
     },
     {
-        'job_title': 'Google Summer of Code Student',
-        'time': 'May 2016 - Aug 2016',
-        'company': 'Classical Language Toolkit (CLTK), WFH',
-        'details': 'Worked on the CLTK webapp - a modern reading environment to study classical languages. Updated the webapp to provide definitions, translations and commentary along with the text. Added functionality to add annotations and bookmarks to enhance the reading experience for user. Working on extending user profile to include annotations, bookmarks and other social networks.',
+        'job_title': 'Начальник сектора',
+        'time': '2000 - 2009',
+        'company': 'ООО АТБ-Маркет',
+        'details': 'Внедрение системы мотивации диспетчеров; <br>'
+                   'Увеличены объемы загрузки транспорта на 7%; <br>'
+                   'Планирование и управление диспетчерской службой 27чел; <br>'
+                   'Планирование потребности подвижного состава >200ед; <br>'
+                   'Разработка требований к диспетчеризации; <br>'
+                   'Автоматизация расчетов, разработка алгоритма поиска кратчайших расстояний.',
         'achievments': 'ok'
     },
-    {
-        'job_title': 'Research and Development Intern',
-        'time': 'May 2015 - June 2015',
-        'company': 'Aspiring Minds, Gurgaon IN',
-        'details': 'Developed a CRM-simulation module integrated into the employability assessment platform AMCAT. Created the frontend for the module and wrote backend code for question delivery and scoring. Designed the database schemas for the module compatible with the current platform’s database.',
-        'achievments': 'ok'
-    }
 ]
 
 EDUCATIONS_HEAD = 'Образование'
 EDUCATIONS = [
     {
-        'degree': 'B.E in Information Technology',
-        'meta': 'Netaji Subhas Institute of Technology (NSIT)',
-        'time': '2012 - 2016'
+        'degree': 'Товароведение и коммерческая деятельность; Учет и Аудит',
+        'meta': 'Харьковский университет питания и торговли',
+        'time': '2001 - 2006'
     },
     {
-        'degree': 'High School',
-        'meta': 'Ludlow Castle',
-        'time': '2012'
+        'degree': 'Компания SkillsUp',
+        'meta': 'Обучение Бизнес анализ в действии',
+        'time': '2018'
+    },
+    {
+        'degree': 'Бизнес-тренер Сергей Жарков',
+        'meta': 'Бизнес-тренинг «Развитие управленческих навыков»',
+        'time': '2015'
     }
 ]
 
