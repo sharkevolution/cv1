@@ -47,7 +47,7 @@ LINKEDIN = 'nsitala'
 GITHUB = 'sharkevolution'
 TWITTER = 'nsitala'
 
-CAREER_SUMMARY_HEAD = 'Профиль'
+CAREER_SUMMARY_HEAD = 'Профіль'
 CAREER_SUMMARY = 'Маю досвід некомерційної розробки на Python. Використовую Jupyter, Heroku, QGIS, telegram api. ' \
                  'Маю хороші аналітичні здібності, написання БТ та ТЗ, створення транспортних облікових систем. ' \
                  'Швидко навчаюсь, прагну стати частиною професійної команди, ' \
