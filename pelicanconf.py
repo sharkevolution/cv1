@@ -35,7 +35,7 @@ THEME = "resume"
 CSS_FILE = 'main-3.css'
 
 # Profile information
-NAME = 'Ситала Николай'
+NAME = 'Сітала Микола'
 TAGLINE = 'junior Python developer'
 PIC = 'profile.png'
 
