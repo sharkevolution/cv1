@@ -78,11 +78,12 @@ SOFT_SKILLS = [
 
 HARD_SKILLS_HEAD = 'Технічні навички'
 HARD_SKILLS = json.dumps({"Python": 4.0,
+                          "Django": 3.0,
                           "Jupyter": 4.0,
                           "Sql": 3.0,
                           "Lua": 3.0,
                           "HTML": 3.0,
-                          "CSS": 2.0,
+                          "CSS": 3.0,
                           "BPMN": 4.0,
                           "linux": 3.0
                           })
@@ -91,6 +92,11 @@ PROJECT_INTRO = 'Частковий список реалізованих про
 
 PROJECTS_HEAD = 'Проекты'
 PROJECTS = [
+    {
+        'title': 'Simple Chat',
+        'tagline': 'є навички роботи з Django, Channel layers, Django Rest Framework, Simple JWT. Реалізував простий чат з можливістю використовувати API, створення або видалення, '
+                   'статуси повідомлення, останні непрочитані, використаня адмін панели, пагінация',
+    },
     {
         'title': 'Telegram Bot',
         'tagline': 'Розробив бот для фіксації часу прибуття товару в точки видачі, з можливістю вибору перевізника, '
@@ -134,8 +140,7 @@ INTERESTS = [
     'Задача комівояжера',
     'GIS',
     'BigData',
-    'Data Mining',
-    'Love2D framework']
+    'Data Mining',]
 
 
 EXPERIENCES_HEAD = 'Досвід роботи'
