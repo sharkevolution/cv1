@@ -8,10 +8,10 @@ $(function() {
 	$(document).ready(function() {
 	
 				$('.skillsPieChart').radarChart({
-				size: [380, 300],
+				size: [380, 350],
 				step: 1,
 				fixedMaxValue:5,
-				showAxisLabels: true
+				showAxisLabels: true,
 				});
 	
     });
