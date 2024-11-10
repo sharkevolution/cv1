@@ -31,7 +31,8 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: #3d884d;
+  /* color: #3d884d; */
+  color: #545e6c;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -48,7 +49,8 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: #5BB66F;
+  /* background: #5BB66F; */
+  background: #545e6c;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -57,7 +59,8 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #5BB66F;
+  /* background: #5BB66F; */
+  background: #545e6c;
   position: absolute;
   right: 0;
   width: 260px;
@@ -166,7 +169,8 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #3d884d;
+  /* color: #3d884d; */
+  color: #545e6c;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -185,7 +189,8 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #3d884d;
+  /* background: #3d884d; */
+  background: #545e6c;
   text-align: center;
   padding-top: 8px;
   font-size: 16px;
@@ -219,6 +224,7 @@ p {
 .main-wrapper .company {
   margin-bottom: 10px;
   color: #97AAC3;
+  font-size: large;
 }
 
 .main-wrapper .achievments {
@@ -335,5 +341,7 @@ used for profile image
 
 .achievments-details {
 	font-style: italic;
+	font-size: 12px;
+	font-weight: bold;
 }
 
