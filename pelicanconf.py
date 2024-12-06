@@ -223,3 +223,4 @@ SITEMAP = {
 
 if __name__ == '__main__':
     print(CAREER_SUMMARY)
+    print()
